@@ -44,7 +44,7 @@ public class MainApp {
         List<User> users = userService.listUsers();
         for (User user : users) {
             System.out.println(user.toString());
-        }
+            }
         System.out.println("Пользователь найден: ");
         System.out.println(userService.getUserByCar("BMW", 1990).toString());
         context.close();
